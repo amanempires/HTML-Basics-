@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    float: left;
+    padding: 5px;
+    width: 33.33%;
+    text-decoration:none;
+}

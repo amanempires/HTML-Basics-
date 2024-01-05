@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        span{
+            color:brown;
+            background-color: aqua;
+        }
+    </style>
+    <script>
+        function g() {
+       
+            var a;
+            a=parseInt(document.getElementById("fid").value);
+            while(a>=1){
+                document.getElementById("pfid").innerHTML+= "<br>" +"The Printed Number is " + a + "<br>";
+                a--;
+            }
+        }
+        function f() {
+            let c,i;
+            c=parseInt(document.getElementById("sid").value);
+            for(i=1;i<=c;i++){
+                if(i%2==0){
+                    document.getElementById("fpid").innerHTML+= i+" is a Even number <br>";
+                }
+                else{  
+                    document.getElementById("fpid").innerHTML+= i+ " is a Odd Number <br>";
+                }
+            }
+        }
+        function dwo(){
+            var y,sum=0;
+            y=parseInt(document.getElementById("dow").value);
+            do{
+                sum=sum+y;
+                y=y-1;
+            }            
+            while(y>=1)
+            document.getElementById("dowid").innerHTML=" Sum of Number is "+sum;
+        }
+        function fo() {
+                var r,x,av;
+                r=[12,4,5,48,2];
+                for(x of r){
+                    document.getElementById("tbid").innerHTML+= "<br>" + x +"<br>";
+                    x++;
+                }
+                for(av in r){
+                    document.getElementById("finid").innerHTML+= "<br>"+ (r[av]/2) +"<br>"
+                }
+        }
+        alert("This is Alert box")
+        prompt("This is an Prompt Box")
+        confirm("This is an Confirm")
+    </script>
+    <title>26 to 34</title>
+</head>
+<body>
+    <h1><span>While Loop</span></h1>
+    <br><br><code>
+    <label for="">Enter First Number:</label>
+    <input type="text" id="fid">
+    <br>
+    <br>
+    <p id="pfid">The Answer will come here..</p>
+    <br>
+    <br>
+    <input type="button" value="Submit" onclick="g()">
+    <br>
+    <br>
+    <h1><span>Do While</span></h1>
+    <br>
+    <br>
+    <code>
+        <label for="">Enter Number:</label>
+        <input type="text" id="dow">
+        <br>
+        <br>
+        <p id="dowid">Sum of Number.......</p>
+        <br>
+        <br>
+        <input type="button" onclick="dwo()" value="Do While">
+    </code>
+    <br></code>
+    <h1><span>This section is reprensted "For Loop"</span></h1>
+    <br><br><code>
+    <label for="">Enter Number:</label>
+    <input type="text" id="sid">
+    <br><br>
+    <p id="fpid">For Loop..</p>
+    <br><br>
+    <input type="button" value="Click Me" onclick="f()"></code>
+    <br>
+    <br>
+    <h1><span>For Of Loop</span></h1>
+    <br>
+    <br><code><!--
+    <label for="">Enter Number:</label>
+    <input type="text" id="tid">
+    <br>
+    <br> -->
+    <p id="tbid">Average..</p>
+    <br><br>
+    <!--<input type="button" value="Click " onclick="fo()">
+    </code>
+    <br>
+    <br>-->
+    <h1><span>For In Loop</span></h1>
+    <br>
+    <br>
+    <p id="finid">Average of List...</p>
+    <br><br>
+    <input type="button" value="Average" onclick="fo()">
+</body>
+</html>

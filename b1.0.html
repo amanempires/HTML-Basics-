@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="D:\HTML\b1.0.css">
+    <title>Books</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <form>
+        <br><br>
+        <div class="sign" ><img src="E:\My Photo\IMG_8477.JPG" alt="avatar" class="user"><br>
+           <br> <h2>Sign Up</h2><br>
+        <label>Name:</label>
+        <input type="text" required id="nid">
+        <br><br>
+        <label>Phone No.</label>
+        <input type="text" maxlength="2" value="+91" readonly size="2px">
+        <input type="text" required id="pid" maxlength="10">
+        <br><br>
+        <label>Board:</label>
+        <select>
+            <option value="CO" aria-readonly="true">--Choose Option--</option>
+            <option value="CBSE">CBSE Board</option>
+            <option value="ICSE">ICSE Board</option>
+            <option value="U.P">U.P Board</option>
+        </select>
+        <br><br>
+        <label for="AD" style="margin-left:200px;">Address:</label><br>
+        <textarea name="AD" id="adid" required cols="47" rows="5"></textarea><br><br>
+        <a href=""><input type="image" src="http://freepngimg.com/download/submit_button/25511-7-submit-button-picture.png"  height="150" width="150" class="submit" onclick="done()"></a>
+    </div>
+    </form>
+</body>
+</html>

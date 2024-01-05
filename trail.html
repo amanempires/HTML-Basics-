@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<style>
+	h1{color:red}
+	body{background-color:#CCFF66}
+	label{text-align:justify}
+	option{color:blue}
+	select{color:red}
+	</style>
+	<title>Form</title>
+	</head>
+	<body >
+	<h1 style="text-align:center">Personal Details</h1>
+	<form style="margin-left:30%">
+	<label>First Name</label>
+	<input type="text" size="20" required>
+	<br>
+	<br>
+	<label>Middle Name</label>
+	<input type="text" size="20">
+	<br>
+	<br>
+	<label>Last Name</label>
+	<input type="text" size="20" required>
+	<br>
+	<br>
+	<label required>Gender</label>
+	<input type="radio" name="a">Male
+	<input type="radio" name="a"> Female
+	<input type="radio" name="a">Other
+	<br>
+	<br>
+	<label>E-mail i'd</label>
+	<input type="text" size="30" required>
+	<br>
+	<br>
+	<label>Phone Number</label>
+	<input type="text" maxlength="2" size="1" value="+91" selected>
+	<input type="text" size=10 maxlength=10 required>
+	<br>
+	<br>
+	<label> Password</label>
+	<input type="text" required block>
+	<br>
+	<br>
+	<h1 style="margin-left:150px">Qualification Details</h1>
+	<br>	
+	<br>
+	<label>Degree</label>
+	<select><b>
+	<option selected>--Select Course--</option>
+	<option>BSC</option>
+	<option>BCA</option>
+	<option>MSC</option>
+	<option>BBA</option>
+	<option>B.Tech</option>
+	</b></select>
+	<br>
+	<br>
+	<label>Branch</label>
+	<select>
+	<option>--Select Branch</option>
+	<option>CSE</option>
+	<option>CA and IT</option>
+	<option>DS</option>
+	<option>Civil</option>
+	<option>Machincal Engineer</option>
+	</select>
+	<br>
+	<br>
+	<b><label style="font-size:30px;color:red;margin-left:100px"> Address</label><b>
+	<br>
+	<br>
+	<textarea style="font-size:20px" rows=3 cols=50 ></textarea>
+	<br>
+	<br>
+	<label style="font-size:20px">Attach Resume</label>
+	<input type="file" required>
+	<br>
+	<br>
+	<input type="image" src="http://assets.stickpng.com/thumbs/586383c67d90850fc3ce2914.png" width=70 height=120 style="border=50px">
+	</form>
+	</body>
+</html>

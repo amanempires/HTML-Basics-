@@ -1,0 +1,33 @@
+body{
+    margin:20px;
+    padding: 5% 25% 35% 35%;
+    position: fixed;
+}
+form{
+    text-align: center;
+    border:5px dotted black;
+}
+h1{
+    animation-duration:4s;
+    animation-name: aman;
+    animation-iteration-count: infinite;
+    text-align: center;   
+}
+@keyframes aman{
+    0%{color:blue}
+    25%{color:red}
+    50%{color:brown}
+    75%{color:springgreen}
+    100%{color:mediumturquoise}
+}
+label{
+    font-size: 20px;
+}
+input[text]{
+    font-size:15px;
+}
+textarea{
+    font-family: cursive;
+    font-weight:lighter;
+    font-size:18px;
+}

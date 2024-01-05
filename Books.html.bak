@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body{
+	height:100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url("https://media.istockphoto.com/videos/young-man-reading-book-on-the-sofa-video-id477981451?s=640x640");
+}
+form{ text-align:center;
+background-color:tamoto;
+}
+label{
+	color:aqua;
+	font-size:25px;
+	}
+	pre{
+	color:blue;
+	font-size:15px;
+	}
+span{
+color:Brown;
+background-color:springgreen;
+}
+option{
+color:red;
+}
+</style>
+<script>
+        function Big() {
+            var name,book;
+            let board;
+            name=document.getElementById("nid").value;
+            board=document.getElementById("boid").value;
+			book=document.getElementById("bid").value;
+            alert("Hello Mr."+name+" <br> Great! You're in  "+board+"board <br>"+"Thank You for Choose "+book+"Sir.";
+			confirm("Click Yes For Books");
+        }
+    </script>
+</script>
+<title>Free Books</title>
+</head>
+<body>
+<code>
+<h1 style="text-align:center;font-size:50px"><span>Welcome Aman Free Books Store<span></h1>
+<br>
+<br>
+<br>
+<form>
+<br>
+<br>
+<b>
+<pre>Welcome Sir!
+	We are here to complete your all need which is required for you Guys.
+	We wish you all the very best to your future.
+	Guys we hope you'll learn and satisfied from this website.
+	</pre></b>
+<br>
+<br>
+<embed width="320" height="240" autoplay source src="" type="video/ogg" ></embed>
+<br>
+<br>
+<b>
+<label required> Name:</label></b>
+<input type="text" size="20" id="nid" required>
+<br> 
+<br>
+<b><label>Phone Number</label>
+<input type="text" maxlength="2" size="1" value="+91">
+<input type="text" maxlength="10" required>
+</b>
+<b><label>Board:</label></b>
+<select required id="boid" size=1>
+<option>--Select Board--</option>
+<option>CBSE</option>
+<option>UP</option>
+<option>ICSE</option>
+</select>
+<br>
+<br>
+<b><label>Books:</label></b>
+<select required id="bid">
+<option selected>--Select Book--</option>
+<option value="Math">Math</option>
+<option value="Physics">Physics</option>
+<option value="Science">Science</option>
+<option value="Geography">Geography</option>
+<option value="History">History</option>
+<option value="Civics">Civics</option>
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+<option value="Physical Education">Physical Education</option>
+<option value="Computer">Computer</option>  
+</select>
+<br>
+<br>
+<a href="file:///D:/HTML/book_2%20page.html"><input type="image" src="http://assets.stickpng.com/images/586383c67d90850fc3ce2914.png" height=100 width=100 onclick="Big()"></a>
+</form>
+</code>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<head>
+    <meta content="refresh" >
+    <script>
+        function done() {
+            var name,p;
+            name=document.getElementById("nid").value;
+            p=document.getElementById("pid").value;
+            if (isNaN(p)){  
+                alert("Enter Valid Number!");
+            }
+        }
+    </script>
+    <link rel="stylesheet" href="D:\HTML\1.0.css">
+    <title>FBS</title>
+</head>
+<body>
+    <h1>Free Books Store</h1>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="D:\HTML\b1.0.html">Books</a></li>
+        <li><a href="#">Sample Paper</a></li>
+        <li><a href="#">Information</a></li>
+        <li><a href="#">Contact Us</a></li>
+        <li><a href="#">About Us</a></li>
+    </ul>
+    <form>
+                <br><br>
+        <div class="sign" ><img src="E:\My Photo\IMG_8477.JPG" alt="avatar" class="user"><br>
+                <br> <h2>Sign Up</h2><br>
+                <label>Name:</label>
+                <input type="text" required id="nid">
+                <br><br>
+                <label>Phone No.</label>
+                <input type="text" maxlength="2" value="+91" readonly size="2px">
+                <input type="text" required id="pid" onkeyup="done()" maxlength="10">
+                <br><br>
+                <label>Gmail:</label>
+                <input type="text" placeholder="@gmail.com">
+                <br><br>
+                <label>Board:</label>
+                <select>
+                    <option value="CO" aria-readonly="true">--Choose Option--</option>
+                    <option value="CBSE">CBSE Board</option>
+                    <option value="ICSE">ICSE Board</option>
+                    <option value="U.P">U.P Board</option>
+                </select>
+                <br><br>
+                <label for="AD" style="margin-left:200px;">Address:</label><br>
+                <textarea name="AD" id="adid" required cols="47" rows="5"></textarea><br><br>
+                <input type="image" src="http://freepngimg.com/download/submit_button/25511-7-submit-button-picture.png" height="150" width="150" class="submit" onclick="done()">
+        </div>
+    </form>
+</body>
+</html>

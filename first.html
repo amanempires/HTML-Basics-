@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body style="background-color:#CCFF66">
+    <h1 style="text-align: center;color:red">Personal Details</h1>
+    <form style="margin-left: 30%;">
+        <label>First Name</label>
+        <input type="text" id="nid" required>
+        <br>
+        <br>
+        <label>Middle Name</label>
+        <input type="text" >
+        <br>
+        <br>
+        <label for="">Last Name</label>
+        <input type="text" required>
+        <br>
+        <br>
+        <label >Password</label>
+        <input type="text" id="pid" required>
+        <br>
+        <br>
+        <label >E-mail:</label>
+        <input type="text" id="eid" size="30" required>
+        <br>
+        <br>
+        <label >Gender:</label>
+        <input type="radio" name="a">Male
+        <input type="radio" name="a">Female
+        <input type="radio" name="a">Other
+        <br>
+        <br>
+        <label>Contact</label>
+        <input type="text" maxlength="2" value="+91" size="1">
+        <input type="text" maxlength="10">
+        <br>
+        <br>
+        <h1 style="color: red;">Education Qualification </h1>
+        <label for="">Degree:</label>
+            <select>
+                <option selected>--Select Course--</option>
+                <option>B.Com</option>
+                <option>B.SC</option>
+                <option>B.Tech</option>
+                <option>BCA</option>
+            </select>
+            <br>
+            <br>
+            <label>Enginerring</label>
+            <select>
+                <option selected>--Select Group--</option>
+                <option value="">CSE</option>
+                <option value="">ECE</option>
+                <option value="">Civil</option>
+                <option value="">EEE</option>
+            </select>
+            <br>
+            <br>
+            <h2 style="color:red;">Address</h2>
+            <textarea style="font-size:15px" cols="40" rows="5"></textarea>
+            <br>
+            <br>
+            <label for="">Attach Resume:</label>
+            <input type="file" required>
+            <br>
+            <br>
+        <tr><td><input style="margin-left:15%;" type="image" src="http://assets.stickpng.com/thumbs/586383c67d90850fc3ce2914.png" height="150" width="150">
+        </td></tr>
+    </form>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<html>
+<head>
+<style>
+form{ text-align:center;
+background-color:tamoto;
+}
+label{
+	color:Brown;
+	font-size:15px;
+	}
+span{
+color:Brown;
+background-color:springgreen;
+text-align:center;
+}
+</style>
+<script>
+function bok(){
+let name,board,book;
+name=document.getElementById("nid").value;
+board=document.getElementById("boid").value;
+book=document.getElementById("bid").value;
+alert(Hello Mr. + name +"<br>"+ "We happy you're in "+ board +" Board <br>"+" You want "+book+"book";
+confirm(book);
+}
+</script>
+<title> 10 Class Free Books</title>
+</head>
+<body>
+<code>
+<h1><span>Welcome Aman Free Books store<span><h1>
+<form>
+<label> Name:</label>
+<input type="text" id="nid" required>
+<br> 
+<br>
+<label>Board</label>
+<select required id="boid">
+<option>--Select Board--</option>
+<option>CBSE</option>
+<option>UP</option>
+<option>ICSE</option>
+</select>
+<br>
+<br>
+<label>Books</label>
+<select required id="bid">
+<option selected>--Select Book--</option>
+<option value="Math">Math</option>
+<option value="Physics">Physics</option>
+<option value="Science">Science<option>
+<option value="English">English</option>
+<option value="Hindi">Hindi</option>
+<option value="Physical Education">Physical Education</option>
+<option value="Computer">Computer</option>  
+</select>
+<br>
+<br>
+<input type="button" value="Submit" onclick="bok()">
+</form>
+</code>
+</body>
+</html>

@@ -1,0 +1,43 @@
+img{
+    margin:0;
+    padding:0;
+    height:80px;
+    width:60px;
+    margin:25px 50px;
+    margin-right: 15px;
+    text-decoration:none;
+    margin-right: 15px;
+    display: block;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/6191149.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border:100%;
+    background-attachment: fixed;
+}
+a{
+    text-decoration:none;
+    margin:0;
+    padding:0;
+    margin: 25px 50px;
+    padding:0;
+}
+h1{
+    animation-name: books;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    font-weight: 500px;
+    font-style:italic;
+    font-size:70px;
+    font-style: italic;
+    font-family:cursive;
+}
+@keyframes books{
+    0% {color:yellow;}
+    25%{color:springgreen;}
+    50%{color:red;}
+    100%{color:orangered;}
+}

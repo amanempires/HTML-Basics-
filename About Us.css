@@ -1,0 +1,28 @@
+h1{
+    color:#f50cd2;
+    text-align:center;
+    border-width:45px;
+    font-size:45px;
+    font-style:italic;
+    animation-name: heading;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+@keyframes heading {
+    0% {color: #ff0000;}
+    25% {color: #0f16ee;}
+    50% {color: #25bee2;}
+    100%{ color: #00ff26;}
+}
+pre{
+    color:brown;
+    font-size:20px;
+    text-align: justify;
+}
+p{
+    text-align: justify;
+    color:springgreen;
+    font-size: 25px;;
+    margin: 0;
+    padding: 0;    
+}

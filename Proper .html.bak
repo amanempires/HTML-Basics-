@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="file:///D:/HTML/external_proper.html">
+<title>Free Book Store</title>
+</head>
+<body>
+<h1>Free Books Store</h1>
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Info</a></li>
+<li><a href="#">Contact</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Service</a></li>
+<ul>
+</body>
+</body>
+</html>

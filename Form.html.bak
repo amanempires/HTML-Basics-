@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>26 to 34 </title>
+<style>
+h1{
+color:blue;
+background-color:white;
+}
+</style>
+ <script>
+ function wh()
+ {
+	let a,no1=0,no2=1,i=2;
+	a=parseInt(document.getElementById("fid").value);
+	while(i<=a)
+	{
+	var no3 =no1+no2;	
+	document.getElementById("pid").innerHTML+= no3 +" ";
+	no1=no2;
+	no2=no3;
+	i++;
+	}
+ }
+ </script>
+ <script>
+ function dwh(){
+	var h;
+	h=parseInt(document.getElementById("sid").value);
+	do{
+	document.getElementById("pfid").innerHTML=h + " ";
+	h--;
+	if(h==0)
+	{
+	break;
+	}
+	}while(h>=1)	
+ }
+ </script>
+</head>
+<body>
+	<h1>This Section is for "While Loop"</h1>
+	<label> Enter Number:</label>
+	<input type="text" id="fid">
+	<p id="pid">Fibbonacci Series..</p>
+	<br>
+	<br>
+	<input type="button" value="Click Me" onclick="wh()">
+	<br>
+	<br>
+	<h1>This Section is for the "Do While Loop"</h1>
+	<br>	
+	<label>Enter Number : </label>
+	<input type="text" id="sid" >
+	<br>
+	<br>
+	<p id="pfid" >Number Will be Printed</p>
+	<br>
+	<input type="button" value="Submit Me" onclick="dwh()">
+</body>
+</html>

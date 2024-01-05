@@ -1,0 +1,98 @@
+h1{
+color:#f50cd2;
+text-align:center;
+border-width:45px;
+font-size:45px;
+font-style:italic;
+animation-name: heading;
+animation-duration:4s;
+animation-iteration-count: infinite;
+}
+form{
+    text-align:justify;
+    text-align: center;
+}
+pre{
+    margin:0;
+    padding:0;
+    line-height:20px;
+   
+}
+label{
+    color:orange;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:1000;
+    font-size:15px;
+    font-style:italic
+}
+option{
+    color:#0928ed;
+}
+ul{
+    width: 566px;
+    margin:0;
+    padding:0;
+    list-style: none;
+    height:35px;
+    line-height: 35px;
+    background-color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    background-attachment: fixed;
+    border:100%;
+}
+h2{
+    color:red;
+    text-align: left;
+    text-align:justify;
+}
+p{
+    color:chartreuse;
+}
+embed{
+    margin-left:80%;
+    height:250px;
+    width:700px;
+}
+pre{
+    color:#ffff;
+    text-align:justify
+}
+li{
+    float:left;
+    border-right:2px solid #ff6347;
+}
+a{
+    display:block;
+    color:white;
+    padding: 0  30px;
+    text-decoration: none;
+}
+a:hover,.act{
+    background-color:#00ff6f;
+}
+@keyframes heading {
+    0% {color: #ff0000;}
+    25% {color: #0f16ee;}
+    50% {color: #25bee2;}
+    100%{ color: #00ff26;}
+}
+input[type="text"]{
+    border:none;
+    color:white;
+    font-weight:bold;
+    border-bottom:1px solid yellow;
+    background:transparent;
+    outline:none;
+    height:30px;
+}
+textarea{
+    font-size:15px;
+    font-weight:bold;
+}

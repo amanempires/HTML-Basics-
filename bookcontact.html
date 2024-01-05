@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link  rel="stylesheet" href="D:\HTML\contact.css">
+    <script>
+        function pb() {
+            var a,b;
+            a=document.getElementById("nid").value;
+            b=document.getElementById("poid").value;
+            if(isNaN(b)){
+                alert("Please Insert Number Not Letter.");
+            }
+        }
+        alert("Thank You Mr."+a+" Sir. <br> We'll Updated You ASAP.");
+    </script>
+    <title>Contact</title>
+</head>
+<body>
+    <h1>Problem and Contact Section</h1>
+    <p>If You want any help or any Problem from Us. <br> So Please, Fill the Form. <br>After Filled the form. We will Call You in a Hour.</p>
+    <br><br>
+    <form action="Contact">
+        <label for="Name" >Name:</label>
+        <input type="text" id="nid" required>
+        <br>
+        <br>
+        <br>
+        <label for="Phone Number" >Phone Number:</label>
+        <input type="text" value="+91" size="1px" readonly>
+        <input type="text" id="poid" onkeyup="pb()" required maxlength="10">
+        <br>
+        <br>
+        <br>
+        <label for="">Drop your Problem or Suggestion Below</label>
+        <br>
+        <textarea id="pnid" cols="50" rows="7" required></textarea>
+        <br>
+        <br>
+        <br>
+        <input type="image" src="http://www.clker.com/cliparts/s/k/f/S/M/A/submit-button-png-hi.png" height="70px" weight="70px">
+    </form>
+</body>
+</html>
